@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="bs">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" >
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" >
+        <title>Dobio si po ušima - Helemnejse Quiz</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="lijevo">
+                video
+            </div>
+            <div class="desno">
+                <div class="typo" id="pousima"></div>
+            </div>
+        </div>
+        <script src="scripts/vivus.min.js"></script>
+        <script>
+            new Vivus('pousima', {
+                file: 'assets/dobili-ste-po-usima.svg',
+                type: 'oneByOne',
+                animTimingFunction: Vivus.EASE
+            });
+        </script>
+    </body>
+</html>
+
+
+
+
